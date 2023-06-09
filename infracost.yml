@@ -1,0 +1,7 @@
+version: 0.1
+projects:
+  - path: .
+    name: development
+    usage_file: ./infracost-usage.yml
+    terraform_var_files:
+      - vars.tfvars
